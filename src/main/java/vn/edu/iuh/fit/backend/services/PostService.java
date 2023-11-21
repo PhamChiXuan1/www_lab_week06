@@ -1,4 +1,4 @@
-package vn.edu.iuh.fit.services;
+package vn.edu.iuh.fit.backend.services;
 
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
@@ -8,8 +8,8 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
-import vn.edu.iuh.fit.models.Post;
-import vn.edu.iuh.fit.repositories.PostRepository;
+import vn.edu.iuh.fit.backend.models.Post;
+import vn.edu.iuh.fit.backend.repositories.PostRepository;
 
 import java.util.List;
 import java.util.Optional;

@@ -1,11 +1,11 @@
-package vn.edu.iuh.fit.services;
+package vn.edu.iuh.fit.backend.services;
 
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import vn.edu.iuh.fit.models.User;
-import vn.edu.iuh.fit.repositories.UserRepository;
+import vn.edu.iuh.fit.backend.models.User;
+import vn.edu.iuh.fit.backend.repositories.UserRepository;
 
 @Service
 @NoArgsConstructor
